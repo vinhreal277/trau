@@ -1,0 +1,93 @@
+body{
+    font-size: 14pt;
+    font-family:'times new roman';
+    background-color: rgb(178, 217, 224);
+}
+ul{
+    list-style-type: none;
+}
+#slogan{
+    position: absolute;
+    top: 25px;
+    left: 430px;
+    font-size: 20pt;
+}
+#wrap{
+    background-color: white;
+    width: 960px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#innerwrap{
+   background-image:linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+   background-position: center;
+}
+#navigation{
+    background-color: rgb(139, 150, 197);
+    height: 35px;
+
+}
+#navigation li{
+    background-color: rgb(89, 142, 190);
+    float: left;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    line-height: 35px;
+}
+#navigation a{
+    text-decoration: none;
+    color: white;
+}
+#navigation a:hover{
+    color: rgb(197, 197, 197);
+}
+
+#sidebar{
+  float: left;  
+  width: 300px;
+  margin-left: 20px ;
+  margin-right: 20px;
+}
+#sidebar li{
+    font-size: 12pt;
+    font-style: italic;
+}
+    #innerwrap:after{
+        content: "";
+        display:block;
+        clear: both;
+        height: 0;
+    }
+}
+#main{
+    float: right;
+    width: 600px;
+    margin-right: 40px;
+}
+#bang{
+    margin: 20px;
+}
+
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+
+}
+td{
+    text-align: left;
+}
+a{
+    color: blue;
+}
+#footer{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    width: 960px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
